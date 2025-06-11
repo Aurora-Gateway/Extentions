@@ -1,12 +1,13 @@
 // Example Dark Mode Extension
-/*METADATA*/
-const metadata = {
-    id: "simple-dark-mode-1234",
-    name: "Simple Dark Mode",
-    description: "A simple dark mode for websites",
-    version: "1.0.0",
-    icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmM1LjUxNCAwIDEwIDQuNDg2IDEwIDEwcy00LjQ4NiAxMC0xMCAxMFMyIDIuNTE0IDIgMTJzNC40ODYtMTAgMTAtMTB6Ii8+PC9zdmc+"
-};
+/*METADATA
+{
+    "id": "simple-dark-mode-1234",
+    "name": "Simple Dark Mode",
+    "description": "A simple dark mode for websites",
+    "version": "1.0.0",
+    "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmM1LjUxNCAwIDEwIDQuNDg2IDEwIDEwcy00LjQ4NiAxMC0xMCAxMFMyIDIuNTE0IDIgMTJzNC40ODYtMTAgMTAtMTB6Ii8+PC9zdmc+"
+}
+METADATA*/
 /*CODE*/
 (function() {
     // Store extension state in localStorage
