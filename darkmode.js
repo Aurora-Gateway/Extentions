@@ -1,5 +1,5 @@
 // Example Dark Mode Extension
-/*METADATA
+/* METADATA
 {
     "id": "simple-dark-mode-1234",
     "name": "Simple Dark Mode",
@@ -7,8 +7,8 @@
     "version": "1.0.0",
     "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmM1LjUxNCAwIDEwIDQuNDg2IDEwIDEwcy00LjQ4NiAxMC0xMCAxMFMyIDIuNTE0IDIgMTJzNC40ODYtMTAgMTAtMTB6Ii8+PC9zdmc+"
 }
-METADATA*/
-/*CODE*/
+METADATA */
+/* CODE */
 (function() {
     // Store extension state in localStorage
     const stateKey = 'Aurora_extension_simple-dark-mode-1234';
